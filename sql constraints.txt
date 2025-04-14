@@ -1,0 +1,45 @@
+create table emp(
+emp_id int unique,
+emp_name varchar(20)not null,
+emp_salary decimal,
+emp_dob date
+);
+
+insert into emp values(101,'akash',25000,'1998-02-02'),
+(102,'neha',35000,'2002-12-12');
+
+select * from emp;
+
+
+
+create table emp_Designation(
+emp_id int unique,
+emp_role varchar(20) default 'worker');
+
+insert into emp_designation values(101,'SDE1'),(102,'SDE2');
+insert into emp_designation(emp_id) values (103),(104);
+insert into emp_designation values(null,'tester');
+select * from emp_Designation;
+
+
+create table emp_perfomance( 
+emp_id int primary key,
+emp_rating char(1) not null
+);
+
+insert into emp_perfomance values(101,'a'),(102,'b');
+
+select * from emp_perfomance;
+
+1. what are constraint in SQL?
+2. what are the types of constraints?
+3. Can we insert the null values into unique colum?
+4. what is primary key constraint?
+5.what is not null constraint?
+6. are constraints case sensitive?
+7. create one table using not null,unique,default and primary key constraint.
+
+emp:
+emp_id primary key,
+emp_name not null,
+emp_email unique default 'chaithu87908@gmail.com'
