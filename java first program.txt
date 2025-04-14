@@ -1,0 +1,9 @@
+public class Main {
+  public static void main(String[] args) {
+    System.out.print("welcome to the kodenest");
+    System.out.println("here is the menu");
+    System.out.print("pizz");
+    System.out.print("burger");
+    System.out.print("pasta");
+  }
+}

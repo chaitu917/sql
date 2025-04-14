@@ -1,0 +1,9 @@
+public class Main {
+  public static void main(String[] args) {
+    System.out.print("i wnat to develop applications.so i learning");
+    System.out.println("full stack developer");
+    
+    System.out.print("for developing back-end");
+    System.out.print("iam learning java.");
+  }
+}
