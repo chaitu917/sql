@@ -1,0 +1,14 @@
+create table bank(
+bank_id number,
+bank_name varchar2(20),
+opned_date date,
+branch_code char(5)
+);
+
+insert into bank values
+(101,'SBI',To_date('2025-02-25','YYYY-MM-DD'),'SB001');
+
+insert into bank values
+(102,'HDFC',To_date('2025-02-25','YYYY-MM-DD'),'HD002');
+
+select * from bank;

@@ -1,0 +1,17 @@
+create table emp(
+emp_id int unique,
+emp_name varchar(20)NOT null
+);
+
+insert into emp values
+(101,'akash'),(102,'pooja'),(103,'suresh'),
+(104,'praksh'),(105,'shreya'),(106,'ankit'),
+(null,'ayush');
+
+select * from emp;
+
+-- in unique constraint colum only unique values are allowed but
+-- it also accept null values
+--null == null ---> null
+--null + null ----> null
+-- null +5 --->null
